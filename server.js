@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/sesh', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sesh.html'));
+app.get('/sesha', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sesha.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
