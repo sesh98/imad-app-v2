@@ -5,7 +5,7 @@ body {
 }
 
 .center {
-    text-align: center;
+    text-alxign: center;
 }
 
 .text-big {
@@ -19,4 +19,12 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.container{
+    max-width:800px;
+    margin:0 auto;
+    color:green;
+    font-family:verdana;
+    padding-top:60px;
+    padding-left:20px;
+    padding-right:20px;
+}
