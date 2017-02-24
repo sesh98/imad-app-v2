@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 var count=0;
 app.get('/count',function(req, res){
     count=count+1;
-    app.send(count.toString());
+    app.sendFile(count.toString());
 });
 
 app.get('/sesh', function (req, res) {
