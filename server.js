@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
     
 });
 var pool= new Pool(config);
-app.get('/testyes-db',function(req,res)){
+app.get('/testyes-db',function(req,res){
     pool.querry('SELECT * FROM testyes', function(err,result){
         if(err){
             res.status(500).send(err.toString());
